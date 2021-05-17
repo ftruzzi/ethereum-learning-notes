@@ -1,5 +1,3 @@
-# The Ethereum trie
-
 Ethereum is a big virtual machine whose state all clients agree on. The state is big and a lot to handle for a node, so efforts to build stateless clients (clients who don't have to hold the whole state, or any of it) are underway.
 
 To get a full understanding of the problem that needs to be solved, we should know what the state is and how it is stored. Basically, it is the set of all accounts (and their balances, storage and contract code) and it is stored in a data structure called a hexary trie.
@@ -10,6 +8,9 @@ This will be a top-down, line-by-line tentative of understanding the trie starti
 
 - Concepts of [tries](https://en.wikipedia.org/wiki/Trie), [hashing](https://en.wikipedia.org/wiki/Hash_function), [hex encoding](https://en.wikipedia.org/wiki/Hexadecimal) and maybe [binary trees](https://en.wikipedia.org/wiki/Binary_tree)
 - How to read basic Python code
+
+### What you will learn
+- How Ethereum stores and encodes data in a trie
 
 ### Optional reading
 
